@@ -25,6 +25,19 @@
 		CAAC234C1B3C22DA0095933B /* libopencv_superres.2.4.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CAAC233A1B3C22DA0095933B /* libopencv_superres.2.4.9.dylib */; };
 		CAAC234D1B3C22DA0095933B /* libopencv_video.2.4.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CAAC233B1B3C22DA0095933B /* libopencv_video.2.4.9.dylib */; };
 		CAAC234E1B3C22DA0095933B /* libopencv_videostab.2.4.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CAAC233C1B3C22DA0095933B /* libopencv_videostab.2.4.9.dylib */; };
+		CAB577A71B422BED00CF6E1C /* Ray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB577A51B422BED00CF6E1C /* Ray.cpp */; };
+		CAB577AA1B422F8B00CF6E1C /* GeometricObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB577A81B422F8B00CF6E1C /* GeometricObject.cpp */; };
+		CAB577AD1B422FFE00CF6E1C /* ShadeRec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB577AB1B422FFE00CF6E1C /* ShadeRec.cpp */; };
+		CAB577B01B4230C500CF6E1C /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB577AE1B4230C500CF6E1C /* World.cpp */; };
+		CAB577B31B4230F100CF6E1C /* RGBColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB577B11B4230F100CF6E1C /* RGBColor.cpp */; };
+		CAB577B61B42310D00CF6E1C /* Normal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB577B41B42310D00CF6E1C /* Normal.cpp */; };
+		CAB577B91B42312600CF6E1C /* Point3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB577B71B42312600CF6E1C /* Point3D.cpp */; };
+		CAB577BC1B42314800CF6E1C /* Vector3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB577BA1B42314800CF6E1C /* Vector3D.cpp */; };
+		CAB577BF1B423A7E00CF6E1C /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB577BD1B423A7E00CF6E1C /* Plane.cpp */; };
+		CAB577C21B4245F900CF6E1C /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB577C01B4245F900CF6E1C /* Sphere.cpp */; };
+		CAB577C51B425BAD00CF6E1C /* ViewPlane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB577C31B425BAD00CF6E1C /* ViewPlane.cpp */; };
+		CAB577C81B425BFF00CF6E1C /* Tracer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB577C61B425BFF00CF6E1C /* Tracer.cpp */; };
+		CAB577CB1B425C9400CF6E1C /* Constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAB577C91B425C9400CF6E1C /* Constants.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +72,32 @@
 		CAAC233A1B3C22DA0095933B /* libopencv_superres.2.4.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_superres.2.4.9.dylib; path = ../../../../usr/local/lib/libopencv_superres.2.4.9.dylib; sourceTree = "<group>"; };
 		CAAC233B1B3C22DA0095933B /* libopencv_video.2.4.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.2.4.9.dylib; path = ../../../../usr/local/lib/libopencv_video.2.4.9.dylib; sourceTree = "<group>"; };
 		CAAC233C1B3C22DA0095933B /* libopencv_videostab.2.4.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_videostab.2.4.9.dylib; path = ../../../../usr/local/lib/libopencv_videostab.2.4.9.dylib; sourceTree = "<group>"; };
+		CAB577A51B422BED00CF6E1C /* Ray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ray.cpp; sourceTree = "<group>"; };
+		CAB577A61B422BED00CF6E1C /* Ray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ray.h; sourceTree = "<group>"; };
+		CAB577A81B422F8B00CF6E1C /* GeometricObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeometricObject.cpp; sourceTree = "<group>"; };
+		CAB577A91B422F8B00CF6E1C /* GeometricObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometricObject.h; sourceTree = "<group>"; };
+		CAB577AB1B422FFE00CF6E1C /* ShadeRec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShadeRec.cpp; sourceTree = "<group>"; };
+		CAB577AC1B422FFE00CF6E1C /* ShadeRec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadeRec.h; sourceTree = "<group>"; };
+		CAB577AE1B4230C500CF6E1C /* World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = World.cpp; sourceTree = "<group>"; };
+		CAB577AF1B4230C500CF6E1C /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		CAB577B11B4230F100CF6E1C /* RGBColor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RGBColor.cpp; sourceTree = "<group>"; };
+		CAB577B21B4230F100CF6E1C /* RGBColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBColor.h; sourceTree = "<group>"; };
+		CAB577B41B42310D00CF6E1C /* Normal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Normal.cpp; sourceTree = "<group>"; };
+		CAB577B51B42310D00CF6E1C /* Normal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Normal.h; sourceTree = "<group>"; };
+		CAB577B71B42312600CF6E1C /* Point3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Point3D.cpp; sourceTree = "<group>"; };
+		CAB577B81B42312600CF6E1C /* Point3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point3D.h; sourceTree = "<group>"; };
+		CAB577BA1B42314800CF6E1C /* Vector3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3D.cpp; sourceTree = "<group>"; };
+		CAB577BB1B42314800CF6E1C /* Vector3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector3D.h; sourceTree = "<group>"; };
+		CAB577BD1B423A7E00CF6E1C /* Plane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plane.cpp; sourceTree = "<group>"; };
+		CAB577BE1B423A7E00CF6E1C /* Plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plane.h; sourceTree = "<group>"; };
+		CAB577C01B4245F900CF6E1C /* Sphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sphere.cpp; sourceTree = "<group>"; };
+		CAB577C11B4245F900CF6E1C /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
+		CAB577C31B425BAD00CF6E1C /* ViewPlane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ViewPlane.cpp; sourceTree = "<group>"; };
+		CAB577C41B425BAD00CF6E1C /* ViewPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPlane.h; sourceTree = "<group>"; };
+		CAB577C61B425BFF00CF6E1C /* Tracer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tracer.cpp; sourceTree = "<group>"; };
+		CAB577C71B425BFF00CF6E1C /* Tracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracer.h; sourceTree = "<group>"; };
+		CAB577C91B425C9400CF6E1C /* Constants.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Constants.cpp; sourceTree = "<group>"; };
+		CAB577CA1B425C9400CF6E1C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +148,33 @@
 		CA0901741B3C1FB000FEF8FC /* raytracing */ = {
 			isa = PBXGroup;
 			children = (
+				CAB577C91B425C9400CF6E1C /* Constants.cpp */,
+				CAB577CA1B425C9400CF6E1C /* Constants.h */,
+				CAB577A81B422F8B00CF6E1C /* GeometricObject.cpp */,
+				CAB577A91B422F8B00CF6E1C /* GeometricObject.h */,
 				CA0901751B3C1FB000FEF8FC /* main.cpp */,
+				CAB577B41B42310D00CF6E1C /* Normal.cpp */,
+				CAB577B51B42310D00CF6E1C /* Normal.h */,
+				CAB577BD1B423A7E00CF6E1C /* Plane.cpp */,
+				CAB577BE1B423A7E00CF6E1C /* Plane.h */,
+				CAB577B71B42312600CF6E1C /* Point3D.cpp */,
+				CAB577B81B42312600CF6E1C /* Point3D.h */,
+				CAB577A51B422BED00CF6E1C /* Ray.cpp */,
+				CAB577A61B422BED00CF6E1C /* Ray.h */,
+				CAB577B11B4230F100CF6E1C /* RGBColor.cpp */,
+				CAB577B21B4230F100CF6E1C /* RGBColor.h */,
+				CAB577AB1B422FFE00CF6E1C /* ShadeRec.cpp */,
+				CAB577AC1B422FFE00CF6E1C /* ShadeRec.h */,
+				CAB577C01B4245F900CF6E1C /* Sphere.cpp */,
+				CAB577C11B4245F900CF6E1C /* Sphere.h */,
+				CAB577C61B425BFF00CF6E1C /* Tracer.cpp */,
+				CAB577C71B425BFF00CF6E1C /* Tracer.h */,
+				CAB577BA1B42314800CF6E1C /* Vector3D.cpp */,
+				CAB577BB1B42314800CF6E1C /* Vector3D.h */,
+				CAB577C31B425BAD00CF6E1C /* ViewPlane.cpp */,
+				CAB577C41B425BAD00CF6E1C /* ViewPlane.h */,
+				CAB577AE1B4230C500CF6E1C /* World.cpp */,
+				CAB577AF1B4230C500CF6E1C /* World.h */,
 			);
 			path = raytracing;
 			sourceTree = "<group>";
@@ -194,7 +259,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB577AD1B422FFE00CF6E1C /* ShadeRec.cpp in Sources */,
+				CAB577CB1B425C9400CF6E1C /* Constants.cpp in Sources */,
+				CAB577B31B4230F100CF6E1C /* RGBColor.cpp in Sources */,
+				CAB577BF1B423A7E00CF6E1C /* Plane.cpp in Sources */,
+				CAB577B01B4230C500CF6E1C /* World.cpp in Sources */,
+				CAB577B61B42310D00CF6E1C /* Normal.cpp in Sources */,
+				CAB577AA1B422F8B00CF6E1C /* GeometricObject.cpp in Sources */,
+				CAB577B91B42312600CF6E1C /* Point3D.cpp in Sources */,
+				CAB577C21B4245F900CF6E1C /* Sphere.cpp in Sources */,
+				CAB577A71B422BED00CF6E1C /* Ray.cpp in Sources */,
+				CAB577C51B425BAD00CF6E1C /* ViewPlane.cpp in Sources */,
 				CA0901761B3C1FB000FEF8FC /* main.cpp in Sources */,
+				CAB577C81B425BFF00CF6E1C /* Tracer.cpp in Sources */,
+				CAB577BC1B42314800CF6E1C /* Vector3D.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +356,11 @@
 		CA09017A1B3C1FB000FEF8FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include/,
+				);
 				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -286,6 +369,11 @@
 		CA09017B1B3C1FB000FEF8FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include/,
+				);
 				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
